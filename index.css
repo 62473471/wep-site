@@ -1,0 +1,76 @@
+html{
+background-image:url(index.jpg);
+background-size: 100% 100%;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+p{
+color:#ffffff;
+}
+h1{
+color:yellow;
+}
+h2{
+color:#ffe413;
+}
+
+li{
+color:#000000;
+}
+u{
+color:red;
+}
+pre{
+color:white;
+}
+.black{
+color:black;
+}
+body{
+background-image:url(kullanici.jpg);
+background-size:120px 200px;
+background-repeat:no-repeat;
+background-position:top right;
+background-attachment:fixed;
+}
+.buyuk{
+width:90%;
+height:10px;
+background-color:green;
+}
+.kucuk{
+width:50%;
+height:5px;
+background-color:green;
+}
+.duzen{
+width:70%;
+color:#c71585;
+background-color:#7c84b2;
+
+}
+
+.menu{
+padding:0px 20px 10px 0px;
+color:black;
+background-color:#cfcfcf;
+display:inline-block;
+float:right;
+background-attachment:fixed;
+}
+.menu2{
+display:block;
+float:right;
+padding:1px 40px 1px 1px;
+height:40%;
+background-color:#c6e2ff;
+
+}
+
+/*.menu:hover .menu2{
+display:block;
+}
+*/
+
+
