@@ -52,19 +52,20 @@ background-color:#7c84b2;
 }
 
 .menu{
-padding:0px 20px 10px 0px;
-color:black;
-background-color:#cfcfcf;
-display:inline-block;
-float:right;
-background-attachment:fixed;
+    padding: 0px 0px 10px 0px;
+    color: black;
+    background-color: #cfcfcf;
+    display: inline-block;
+    background-attachment: fixed;
+    width: 25%;
+    position: fixed;
+    top: 204px;
+    right: 0px;
 }
 .menu2{
 display:block;
-float:right;
-padding:1px 40px 1px 1px;
-height:40%;
 background-color:#c6e2ff;
+    height: 100%;
 
 }
 
@@ -74,3 +75,30 @@ display:block;
 */
 
 
+.icTaraf{
+        width: 70%;
+}
+
+
+.menu2 a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.menu2 a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.menu2 a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+.menuBaslik{
+        font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
